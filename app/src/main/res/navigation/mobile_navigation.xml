@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.haasyadentalcare.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.example.haasyadentalcare.ui.Services.ServicesFragment"
+        android:label="@string/menu_services"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/nav_doctores"
+        android:name="com.example.haasyadentalcare.ui.Doctors.DoctorsFragment"
+        android:label="@string/menu_doctores"
+        tools:layout="@layout/fragment_doctore" />
+
+    <fragment
+        android:id="@+id/nav_mission"
+        android:name="com.example.haasyadentalcare.ui.Mission.MissionFragment"
+        android:label="@string/menu_mission"
+        tools:layout="@layout/fragment_mission" />
+
+    <fragment
+        android:id="@+id/nav_review"
+        android:name="com.example.haasyadentalcare.ui.Review.ReviewFragment"
+        android:label="@string/menu_review"
+        tools:layout="@layout/fragment_review" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.haasyadentalcare.ui.Contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.haasyadentalcare.ui.AboutUs.About"
+        android:label="@string/menu_about"
+        tools:layout="@layout/about_fragment"/>
+</navigation>
