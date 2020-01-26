@@ -341,7 +341,7 @@ public class AddPatient extends AppCompatActivity {
                     }
                 });
 
-        builder.show();
+      //  builder.show();
     }
     void savedata()
     {
